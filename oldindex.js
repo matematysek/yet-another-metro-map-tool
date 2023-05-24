@@ -168,7 +168,50 @@ function create(stations, classes) {
     return elem;
 }
 
-const C = start(50, 250)
-    .setColor('C8000F')
-    .continue(['Háje', 'Opatov', 'Chodov', 'Roztyly', 'Kačerov', 'Budějovická', 'Pankrác', 'Pražského povstání', 'Vyšehrad', 'I. P. Pavlova', 'Muzeum', 'Hlavní nádraží', 'Florenc', 'Vltavská', 'Nádraží Holešovice', 'Kobylisy', 'Ládví', 'Střížkov', 'Prosek', 'Letňany'], 3000, 'e', 'line-end')
-    
+const zagrebcanka = start(50, 250)
+    .setColor('red')
+    .continue(['Ljubljanica', 'Selska', 'Nehajska', 'Trešnjevački trg', 'Badalićeva', 'Tehnički m.', null], 300, 'e', 'line-end')
+    .continue(['Stud. centar', 'Zagrebčanka'], 200, 's')
+zagrebcanka.continue(['Vrbik', 'Miramarska', 'Lisinski', 'Kruge', 'Strojarska'], 300, 'e')
+    .continue(['Držićeva'], 100, 'e')
+    .continue(['Olipska', 'Radnička', 'Heinzelova', 'Donje Svetice', 'Ivanićgradska'], 250, 'e')
+    .continue([null, 'Getaldićeva', 'Čavićeva', 'Žitnjak', 'Elka', 'Munja', 'Zagrebački transporti', 'Savišće'], 200, 's', 'line-end');
+
+const savski_most = zagrebcanka.setColor('blue')
+    .continue(['Veslačka', 'Prisavlje', 'Vjesnik', 'Učiteljska akademija'], 200, 's')
+    .continue(['Stud. dom "S. Radić"', 'Savski most'], 50, 'w');
+zagrebcanka.prepend(['Frankopanska', 'Trg Republike Hrvatske', 'Vodnikova'], 200, 'n');
+savski_most.continue(['Prečko', 'Slavenskoga', 'M. Radev', 'Petrovaradinska', 'Rudeška', 'Jarun', 'Staglišće', 'Srednjaci', 'Horvati', 'Knežija', null], 250, 'w', 'line-end');
+
+savski_most.setColor('green')
+    .continue(['Arena Zagreb'], 100, 's')
+    .continue(['Savski Gaj', 'Trnsko', 'Velesajam', 'Muzej suvremene umjetnosti', 'Sopot', 'Središće', 'Utrina', 'Zapruđe'], 400, 'e')
+    .continue(['Slavonska', 'Folnegovićevo naselje', 'Borovje', 'Most mladosti'], 300, 'n')
+    .continue(['Autobusni kolodvor'], 200, 'n')
+    .continue(['Kvaternikov trg', 'Tržnica kvatrić', null, 'Trg kralja Petra Krešimira IV.'], 250, 'n');
+
+// vodnikova - glavni - autobusni
+const vodnikova = zagrebcanka.setColor('orange').prepend(['Vodnikova', 'Botanički vrt'], 150, 'e');
+const glavni_kolodvor = vodnikova.continue(['Glavni kolodvor'], 50, 'e');
+glavni_kolodvor.continue(['Branimirova', 'Branimirova tržnica'], 150, 'e');
+// glavni - trg bana jj
+const trg_bana_jj = glavni_kolodvor.prepend(['Zrinjevac'], 200, 'n')
+    .setColor('yellow')
+    .continue(['Trg bana Josipa Jelačića'], 150, 'w');
+
+// črnomerec
+trg_bana_jj.continue(['Sveti Duh', 'Mandaličina', 'Slovenska', 'Trg dr. F. Tuđmana', 'Frankopanska', null], 300, 'w', 'line-end')
+
+// dubrava
+trg_bana_jj.prepend(['Draškovićeva'], 50, 'n')
+    .continue(['Vončinina', 'Petrova'], 150, 'e')
+    .continue([null, 'Kvaternikov trg', 'Mašićeva', 'Jordanovac', 'Park Maksimir', 'Hondlova', 'Ravnice', 'Dubrava', 'Kapucinska', 'Grižanska', 'Dankovečka', 'Čulinečka', 'Aleja javora', 'Poljanice IV.', 'Dubec'], 400, 'e', 'line-end')
+
+
+// borongaj
+trg_bana_jj
+    .setColor('purple')
+    .prepend(['Trg hrvatskih velikana'], 100, 'e')
+    .continue(['Trg žrtava fašizma'], 100, 's')
+    .continue(['Šubićeva'], 100, 'e')
+    .continue([null, 'Tuškanova', 'Heinzelova', 'Šulekova', 'Harambašićeva', 'Svetice', 'Borongaj'], 300, 'e', 'line-end');

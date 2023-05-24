@@ -82,13 +82,13 @@
     transform: translateX(-100%);
 }
 
-.red .curve,
-.red.line {
-    background: #e03218;
+.C8000F .curve,
+.C8000F.line {
+    background: #C8000F;
 }
 
-.red .station::before {
-    border-color: #e03218;
+.C8000F .station::before {
+    border-color: #C8000F;
 }
 
 .blue .curve,
