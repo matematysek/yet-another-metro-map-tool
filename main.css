@@ -19,7 +19,7 @@
 .horizontal .label {
     left: -8px;
     top: -24px;
-    transform: rotate(-45deg);
+    transform: rotate(-90deg);
 }
 
 .vertical .label {
@@ -84,55 +84,64 @@
 
 .red .curve,
 .red.line {
-    background: #e03218;
+    background: #f8000c;
 }
 
 .red .station::before {
-    border-color: #e03218;
+    border-color: #f8000c;
 }
 
 .blue .curve,
 .blue.line {
-    background: #1847e0;
+    background: #3342ff;
 }
 
 .blue .station::before {
-    border-color: #1847e0;
+    border-color: #3342ff;
 }
 
 .green .curve,
 .green.line {
-    background: #18e075;
+    background: #028202;
 }
 
 .green .station::before {
-    border-color: #18e075;
+    border-color: #028202;
 }
 
 .yellow .curve,
 .yellow.line {
-    background: #e0c918;
+    background: #eded05;
 }
 
 .yellow .station::before {
-    border-color: #e0c918;
+    border-color: #eded05;
 }
 
 .orange .curve,
 .orange.line {
-    background: #e07f18;
+    background: #ec800d;
 }
 
 .orange .station::before {
-    border-color: #e07f18;
+    border-color: #ec800d;
 }
 
 .purple .curve,
 .purple.line {
-    background: #7f18e0;
+    background: #92278f;
 }
 
 .purple .station::before {
-    border-color: #7f18e0;
+    border-color: #92278f;
+}
+
+.silver .curve,
+.silver.line {
+    background: #b2b2b2;
+}
+
+.silver .station::before {
+    border-color: #b2b2b2;
 }
 
