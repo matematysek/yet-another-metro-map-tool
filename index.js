@@ -29,8 +29,43 @@ function posv(elem, x, y, len) {
     }
     return elem;
 }
+function posd(elem, x, y, len) {
+    if (len > 0) {
+        x -= 4;
+        len += 8;
+        elem.style.transform = `translate(${x}px,${y}px)`;
+		elem.style.transform = `rotate(45deg)`;
+        elem.style.width = `8`;
+        elem.style.height = `${y}px`;
+    } else {
+        len = Math.abs(len);
+        len += 8;
+        elem.style.transform = `translate(${x + len}px,${y + len}px)`;
+		elem.style.transform = `rotate(45deg)`;
+        elem.style.width = `8`;
+        elem.style.height = `${y}px`;
+    }
+    return elem;
+}
+function posd(elem, x, y, len) {
+    if (len > 0) {
+        x -= 4;
+        len += 8;
+        elem.style.transform = `translate(${x}px,${y}px)`;
+		elem.style.transform = `rotate(135deg)`;
+        elem.style.width = `8`;
+        elem.style.height = `${y}px`;
+    } else {
+        len = Math.abs(len);
+        len += 8;
+        elem.style.transform = `translate(${x - len}px,${y - len}px)`;
+		elem.style.transform = `rotate(135deg)`;
+        elem.style.width = `8`;
+        elem.style.height = `${y}px`;
+    }
+    return elem;
+}
 
-// direction: ne nw se sw
 function curve(x, y, dir, size = 10) {
     const elem = document.createElementNS('http://www.w3.org/2000/svg', 'path');
 
@@ -45,6 +80,14 @@ function curve(x, y, dir, size = 10) {
             break;
         case 'w':
         case 'e':
+            cx1 = xDir = -getDirVector(dir[0]).x;
+            cy2 = yDir = getDirVector(dir[1]).y;
+            break;
+        case 'ne':
+            cy1 = yDir = -getDirVector(dir[0]).y;
+            cx2 = xDir = getDirVector(dir[1]).x;
+            break;
+        case 'se':
             cx1 = xDir = -getDirVector(dir[0]).x;
             cy2 = yDir = getDirVector(dir[1]).y;
             break;
@@ -84,6 +127,15 @@ function getDirVector(dir) {
             break;
         case 'e':
             x = 1;
+            break;
+        case 'ne':
+        	x = -1,
+            y =  1;
+            break;
+        case 'se':
+            x = 1,
+            y = 1;
+            break;
         default:
             break;
     }
@@ -97,6 +149,10 @@ function opposite(dir) {
         case 'e': return 'w';
         case 's': return 'n';
         case 'n': return 's';
+        case 'nw': return 'se';
+        case 'ne': return 'sw';
+        case 'se': return 'nw';
+        case 'sw': return 'ne';
     }
 }
 
@@ -146,6 +202,18 @@ Line.prototype.position = function (dir, stations, len, classes) {
         elem.classList.add('vertical');
         this.elem = posv(elem, this.startX, this.startY, len * yDir);
         this.endY = this.startY + len * yDir;
+    }
+	if (xDir == 1 && yDir == -1)  {
+        elem.classList.add('diagonal_u');
+        this.elem = posu(elem, this.startX, this.startY, Math.sqrt(len * len + len * len));
+        this.endX = this.startX + Math.sqrt(len * len + len * len) * xDir;
+        this.endY = this.startX + Math.sqrt(len * len + len * len) * yDir;
+    }
+    if (xDir == 1 && yDir == 1) {
+        elem.classList.add('diagonal_d');
+        this.elem = posd(elem, this.startX, this.startY, -Math.sqrt(len * len + len * len));
+        this.endX = this.startX + Math.sqrt(len * len + len * len) *-xDir;
+        this.endY = this.startX + Math.sqrt(len * len + len * len) * yDir;
     }
 }
 

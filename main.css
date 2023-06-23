@@ -45,6 +45,20 @@
     z-index: 1;
 }
 
+.line.diagonal_d {
+    flex-direction: row;
+    height: 8px;
+    top: -4px;
+    z-index: 2;
+}
+
+.line.diagonal_u {
+    flex-direction: row;
+    height: 8px;
+    top: -4px;
+    z-index: 3;
+}
+
 .line.vertical {
     flex-direction: column;
     width: 8px;
