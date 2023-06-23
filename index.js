@@ -29,7 +29,7 @@ function posv(elem, x, y, len) {
     }
     return elem;
 }
-function posd(elem, x, y, len) {
+function posu(elem, x, y, len) {
     if (len > 0) {
         x -= 4;
         len += 8;
@@ -40,7 +40,7 @@ function posd(elem, x, y, len) {
     } else {
         len = Math.abs(len);
         len += 8;
-        elem.style.transform = `translate(${x + len}px,${y + len}px)`;
+        elem.style.transform = `translate(${x + len}px,${y - len}px)`;
 		elem.style.transform = `rotate(45deg)`;
         elem.style.width = `8`;
         elem.style.height = `${y}px`;
@@ -51,17 +51,16 @@ function posd(elem, x, y, len) {
     if (len > 0) {
         x -= 4;
         len += 8;
-        elem.style.transform = `translate(${x}px,${y}px)`;
-		elem.style.transform = `rotate(135deg)`;
+        elem.style.transform = `translate(${x}px,${y}px) rotate(135deg)`;
         elem.style.width = `8`;
-        elem.style.height = `${y}px`;
+        elem.style.height = `len`;
     } else {
         len = Math.abs(len);
         len += 8;
-        elem.style.transform = `translate(${x - len}px,${y - len}px)`;
+        elem.style.transform = `translate(${x + len}px,${y + len}px)`;
 		elem.style.transform = `rotate(135deg)`;
         elem.style.width = `8`;
-        elem.style.height = `${y}px`;
+        elem.style.height = `len`;
     }
     return elem;
 }
@@ -207,13 +206,13 @@ Line.prototype.position = function (dir, stations, len, classes) {
         elem.classList.add('diagonal_u');
         this.elem = posu(elem, this.startX, this.startY, Math.sqrt(len * len + len * len));
         this.endX = this.startX + Math.sqrt(len * len + len * len) * xDir;
-        this.endY = this.startX + Math.sqrt(len * len + len * len) * yDir;
+        this.endY = this.startY + Math.sqrt(len * len + len * len) * yDir;
     }
     if (xDir == 1 && yDir == 1) {
         elem.classList.add('diagonal_d');
-        this.elem = posd(elem, this.startX, this.startY, -Math.sqrt(len * len + len * len));
-        this.endX = this.startX + Math.sqrt(len * len + len * len) *-xDir;
-        this.endY = this.startX + Math.sqrt(len * len + len * len) * yDir;
+        this.elem = posd(elem, this.startX, this.startY, Math.sqrt(len * len + len * len));
+        this.endX = this.startX + Math.sqrt(len * len + len * len) * xDir;
+        this.endY = this.startY + Math.sqrt(len * len + len * len) * yDir;
     }
 }
 
