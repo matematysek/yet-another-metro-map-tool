@@ -1,11 +1,23 @@
-const C = start(500, -210.5)
+const diau = start(554, -203)
     .setColor('red')
-    .continue(['Háje', 'Opatov', 'Chodov', 'Roztyly', 'Kačerov', 'Budějovická', 'Pankrác', 'Pražského povstání', 'Vyšehrad', 'I. P. Pavlova', 'Muzeum', 'Hlavní nádraží', 'Florenc', 'Vltavská', 'Nádraží Holešovice', 'Kobylisy', 'Ládví', 'Střížkov', 'Prosek', 'Letňany'], 1421, 'ne', 'line-end')
+    .continue(['test', 'test', 'test'], 1414, 'ne', 'line-end')
 
-const hor = start(1000, 0)
-    .setColor('red')
-    .continue([null, null], 1000, 's', 'line-end')
+const verr = start(1050, 4)
+    .setColor('green')
+    .continue(['test', 'test'], 992, 's', 'line-end')
 
-const vert = start(0, 1000)
-    .setColor('red')
-    .continue([null, null], 1000, 'e', 'line-end')
+const hord = start(54, 1000)
+    .setColor('yellow')
+    .continue(['test', 'test'], 992, 'e', 'line-end')
+
+const verl = start(50, 4)
+    .setColor('blue')
+    .continue(['test', 'test'], 992, 's', 'line-end')
+
+const horu = start(54, 0)
+    .setColor('purple')
+    .continue(['test', 'test'], 992, 'e', 'line-end')
+    
+const diad = start(554, -203)
+    .setColor('orange')
+    .continue(['test', 'test', 'test'], 1406, 'se', 'line-end')
