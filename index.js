@@ -201,15 +201,15 @@ Line.prototype.position = function (dir, stations, len, classes) {
     }
 	if (xDir == 1 && yDir == -1)  {
         elem.classList.add('diagonal_u');
-        this.elem = posu(elem, this.startX, this.startY, Math.sqrt(len * len + len * len));
-        this.endX = this.startX + Math.sqrt(len * len + len * len);
-        this.endY = this.startY - Math.sqrt(len * len + len * len);
+        this.elem = posu(elem, this.startX, this.startY, Math.sqrt((len * len) + (len * len)));
+        this.endX = this.startX + Math.sqrt((len * len) + (len * len));
+        this.endY = this.startY - Math.sqrt((len * len) + (len * len));
     }
     if (xDir == 1 && yDir == 1) {
         elem.classList.add('diagonal_d');
-        this.elem = posd(elem, this.startX, this.startY, Math.sqrt(len * len + len * len));
-        this.endX = this.startX + Math.sqrt(len * len + len * len);
-        this.endY = this.startY + Math.sqrt(len * len + len * len);
+        this.elem = posd(elem, this.startX, this.startY, Math.sqrt((len * len) + (len * len)));
+        this.endX = this.startX + Math.sqrt((len * len) + (len * len));
+        this.endY = this.startY + Math.sqrt((len * len) + (len * len));
     }
 }
 
