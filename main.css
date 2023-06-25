@@ -96,66 +96,1229 @@
     transform: translateX(-100%);
 }
 
-.red .curve,
-.red.line {
+.myred .curve,
+.myred.line {
     background: #f8000c;
 }
 
-.red .station::before {
+.myred .station::before {
     border-color: #f8000c;
 }
 
-.blue .curve,
-.blue.line {
+.myblue .curve,
+.myblue.line {
     background: #3342ff;
 }
 
-.blue .station::before {
+.myblue .station::before {
     border-color: #3342ff;
 }
 
-.green .curve,
-.green.line {
+.mygreen .curve,
+.mygreen.line {
     background: #028202;
 }
 
-.green .station::before {
+.mygreen .station::before {
     border-color: #028202;
 }
 
-.yellow .curve,
+.myyellow .curve,
 .yellow.line {
     background: #eded05;
 }
 
-.yellow .station::before {
+.myyellow .station::before {
     border-color: #eded05;
 }
 
-.orange .curve,
-.orange.line {
+.myorange .curve,
+.myorange.line {
     background: #ec800d;
 }
 
-.orange .station::before {
+.myorange .station::before {
     border-color: #ec800d;
 }
 
-.purple .curve,
+.mypurple .curve,
 .purple.line {
     background: #92278f;
 }
 
-.purple .station::before {
+.mypurple .station::before {
     border-color: #92278f;
 }
 
-.silver .curve,
-.silver.line {
+.mysilver .curve,
+.mysilver.line {
     background: #b2b2b2;
 }
 
-.silver .station::before {
+.mysilver .station::before {
     border-color: #b2b2b2;
+}
+
+.aliceblue .curve,
+.aliceblue.line {
+    background: aliceblue;
+}
+
+.aliceblue .station::before {
+    border-color: aliceblue;
+}
+
+.aqua .curve,
+.aqua.line {
+    background: aqua;
+}
+
+.aqua .station::before {
+    border-color: aqua;
+}
+
+.aquamarine .curve,
+.aquamarine.line {
+    background: aquamarine;
+}
+
+.aquamarine .station::before {
+    border-color: aquamarine;
+}
+.azure .curve,
+.azure.line {
+    background: azure;
+}
+
+.azure .station::before {
+    border-color: azure;
+}
+.beige .curve,
+.beige.line {
+    background: beige;
+}
+
+.beige .station::before {
+    border-color: beige;
+}
+.bisque .station::before {
+    border-color: bisque;
+}
+.bisque .curve,
+.bisque.line {
+    background: bisque;
+}
+
+
+.black .curve,
+.black.line {
+    background: black;}
+    
+.black .station::before {
+    border-color: black;    
+
+}
+.blanchedalmond .station::before {
+    border-color: blanchedalmond;
+}
+.blanchedalmond .curve,
+.blanchedalmond.line {
+    background: blanchedalmond;
+}
+
+.blue .station::before {
+    border-color: blue;
+}
+.blue .curve,
+.blue.line {
+    background: blue;
+}
+
+.blueviolet .station::before {
+    border-color: blueviolet;
+}
+.blueviolet .curve,
+.blueviolet.line {
+    background: blueviolet;
+}
+
+.brown .station::before {
+    border-color: brown;
+}
+.brown .curve,
+.brown.line {
+    background: brown;
+}
+
+.burlywood .station::before {
+    border-color: burlywood;
+}
+.burlywood .curve,
+.burlywood.line {
+    background: burlywood;
+}
+
+.cadetblue .station::before {
+    border-color: cadetblue;
+}
+.cadetblue .curve,
+.cadetblue.line {
+    background: cadetblue;
+}
+
+.chartreuse .station::before {
+    border-color: chartreuse;
+}
+.chartreuse .curve,
+.chartreuse.line {
+    background: chartreuse;
+}
+
+.chocolate .station::before {
+    border-color: chocolate;
+}
+.chocolate .curve,
+.chocolate.line {
+    background: chocolate;
+}
+
+.coral .station::before {
+    border-color: coral;
+}
+.coral .curve,
+.coral.line {
+    background: coral;
+}
+
+.cornflowerblue .station::before {
+    border-color: cornflowerblue;
+}
+.cornflowerblue .curve,
+.cornflowerblue.line {
+    background: cornflowerblue;
+}
+
+.cornsilk .station::before {
+    border-color: cornsilk;
+}
+.cornsilk .curve,
+.cornsilk.line {
+    background: cornsilk;
+}
+
+.crimson .station::before {
+    border-color: crimson;
+}
+.crimson .curve,
+.crimson.line {
+    background: crimson;
+}
+
+.cyan .station::before {
+    border-color: cyan;
+}
+.cyan .curve,
+.cyan.line {
+    background: cyan;
+}
+
+.darkblue .station::before {
+    border-color: darkblue;
+}
+.darkblue .curve,
+.darkblue.line {
+    background: darkblue;
+}
+
+.darkcyan .station::before {
+    border-color: darkcyan;
+}
+.darkcyan .curve,
+.darkcyan.line {
+    background: darkcyan;
+}
+
+.darkgoldenrod .station::before {
+    border-color: darkgoldenrod;
+}
+.darkgoldenrod .curve,
+.darkgoldenrod.line {
+    background: darkgoldenrod;
+}
+
+.darkgray .station::before {
+    border-color: darkgray;
+}
+.darkgray .curve,
+.darkgray.line {
+    background: darkgray;
+}
+
+.darkgreen .station::before {
+    border-color: darkgreen;
+}
+.darkgreen .curve,
+.darkgreen.line {
+    background: darkgreen;
+}
+
+.darkgrey .station::before {
+    border-color: darkgrey;
+}
+.darkgrey .curve,
+.darkgrey.line {
+    background: darkgrey;
+}
+
+.darkkhaki .station::before {
+    border-color: darkkhaki;
+}
+.darkkhaki .curve,
+.darkkhaki.line {
+    background: darkkhaki;
+}
+
+.darkmagenta .station::before {
+    border-color: darkmagenta;
+}
+.darkmagenta .curve,
+.darkmagenta.line {
+    background: darkmagenta;
+}
+
+.darkolivegreen .station::before {
+    border-color: darkolivegreen;
+}
+.darkolivegreen .curve,
+.darkolivegreen.line {
+    background: darkolivegreen;
+}
+
+.darkorange .station::before {
+    border-color: darkorange;
+}
+.darkorange .curve,
+.darkorange.line {
+    background: darkorange;
+}
+
+.darkorchid .station::before {
+    border-color: darkorchid;
+}
+.darkorchid .curve,
+.darkorchid.line {
+    background: darkorchid;
+}
+
+.darkred .station::before {
+    border-color: darkred;
+}
+.darkred .curve,
+.darkred.line {
+    background: darkred;
+}
+
+.darksalmon .station::before {
+    border-color: darksalmon;
+}
+.darksalmon .curve,
+.darksalmon.line {
+    background: darksalmon;
+}
+
+.darkseagreen .station::before {
+    border-color: darkseagreen;
+}
+.darkseagreen .curve,
+.darkseagreen.line {
+    background: darkseagreen;
+}
+
+.darkslateblue .station::before {
+    border-color: darkslateblue;
+}
+.darkslateblue .curve,
+.darkslateblue.line {
+    background: darkslateblue;
+}
+
+.darkslategray .station::before {
+    border-color: darkslategray;
+}
+.darkslategray .curve,
+.darkslategray.line {
+    background: darkslategray;
+}
+
+.darkslategrey .station::before {
+    border-color: darkslategrey;
+}
+.darkslategrey .curve,
+.darkslategrey.line {
+    background: darkslategrey;
+}
+
+.darkturquoise .station::before {
+    border-color: darkturquoise;
+}
+.darkturquoise .curve,
+.darkturquoise.line {
+    background: darkturquoise;
+}
+
+.darkviolet .station::before {
+    border-color: darkviolet;
+}
+.darkviolet .curve,
+.darkviolet.line {
+    background: darkviolet;
+}
+
+.deeppink .station::before {
+    border-color: deeppink;
+}
+.deeppink .curve,
+.deeppink.line {
+    background: deeppink;
+}
+
+.deepskyblue .station::before {
+    border-color: deepskyblue;
+}
+.deepskyblue .curve,
+.deepskyblue.line {
+    background: deepskyblue;
+}
+
+.dimgray .station::before {
+    border-color: dimgray;
+}
+.dimgray .curve,
+.dimgray.line {
+    background: dimgray;
+}
+
+.dimgrey .station::before {
+    border-color: dimgrey;
+}
+.dimgrey .curve,
+.dimgrey.line {
+    background: dimgrey;
+}
+
+.dodgerblue .station::before {
+    border-color: dodgerblue;
+}
+.dodgerblue .curve,
+.dodgerblue.line {
+    background: dodgerblue;
+}
+
+.firebrick .station::before {
+    border-color: firebrick;
+}
+.firebrick .curve,
+.firebrick.line {
+    background: firebrick;
+}
+
+.floralwhite .station::before {
+    border-color: floralwhite;
+}
+.floralwhite .curve,
+.floralwhite.line {
+    background: floralwhite;
+}
+
+.forestgreen .station::before {
+    border-color: forestgreen;
+}
+.forestgreen .curve,
+.forestgreen.line {
+    background: forestgreen;
+}
+
+.fuchsia .station::before {
+    border-color: fuchsia;
+}
+.fuchsia .curve,
+.fuchsia.line {
+    background: fuchsia;
+}
+
+.gainsboro .station::before {
+    border-color: gainsboro;
+}
+.gainsboro .curve,
+.gainsboro.line {
+    background: gainsboro;
+}
+
+.ghostwhite .station::before {
+    border-color: ghostwhite;
+}
+.ghostwhite .curve,
+.ghostwhite.line {
+    background: ghostwhite;
+}
+
+.gold .station::before {
+    border-color: gold;
+}
+.gold .curve,
+.gold.line {
+    background: gold;
+}
+
+.goldenrod .station::before {
+    border-color: goldenrod;
+}
+.goldenrod .curve,
+.goldenrod.line {
+    background: goldenrod;
+}
+
+.gray .station::before {
+    border-color: gray;
+}
+.gray .curve,
+.gray.line {
+    background: gray;
+}
+
+.green .station::before {
+    border-color: green;
+}
+.green .curve,
+.green.line {
+    background: green;
+}
+
+.greenyellow .station::before {
+    border-color: greenyellow;
+}
+.greenyellow .curve,
+.greenyellow.line {
+    background: greenyellow;
+}
+
+.grey .station::before {
+    border-color: grey;
+}
+.grey .curve,
+.grey.line {
+    background: grey;
+}
+
+.honeydew .station::before {
+    border-color: honeydew;
+}
+.honeydew .curve,
+.honeydew.line {
+    background: honeydew;
+}
+
+.hotpink .station::before {
+    border-color: hotpink;
+}
+.hotpink .curve,
+.hotpink.line {
+    background: hotpink;
+}
+
+.indianred .station::before {
+    border-color: indianred;
+}
+.indianred .curve,
+.indianred.line {
+    background: indianred;
+}
+
+.indigo .station::before {
+    border-color: indigo;
+}
+.indigo .curve,
+.indigo.line {
+    background: indigo;
+}
+
+.ivory .station::before {
+    border-color: ivory;
+}
+.ivory .curve,
+.ivory.line {
+    background: ivory;
+}
+
+.khaki .station::before {
+    border-color: khaki;
+}
+.khaki .curve,
+.khaki.line {
+    background: khaki;
+}
+
+.lavender .station::before {
+    border-color: lavender;
+}
+.lavender .curve,
+.lavender.line {
+    background: lavender;
+}
+
+.lavenderblush .station::before {
+    border-color: lavenderblush;
+}
+.lavenderblush .curve,
+.lavenderblush.line {
+    background: lavenderblush;
+}
+
+.lawngreen .station::before {
+    border-color: lawngreen;
+}
+.lawngreen .curve,
+.lawngreen.line {
+    background: lawngreen;
+}
+
+.lemonchiffon .station::before {
+    border-color: lemonchiffon;
+}
+.lemonchiffon .curve,
+.lemonchiffon.line {
+    background: lemonchiffon;
+}
+
+.lightblue .station::before {
+    border-color: lightblue;
+}
+.lightblue .curve,
+.lightblue.line {
+    background: lightblue;
+}
+
+.lightcoral .station::before {
+    border-color: lightcoral;
+}
+.lightcoral .curve,
+.lightcoral.line {
+    background: lightcoral;
+}
+
+.lightcyan .station::before {
+    border-color: lightcyan;
+}
+.lightcyan .curve,
+.lightcyan.line {
+    background: lightcyan;
+}
+
+.lightgoldenrodyellow .station::before {
+    border-color: lightgoldenrodyellow;
+}
+.lightgoldenrodyellow .curve,
+.lightgoldenrodyellow.line {
+    background: lightgoldenrodyellow;
+}
+
+.lightgray .station::before {
+    border-color: lightgray;
+}
+.lightgray .curve,
+.lightgray.line {
+    background: lightgray;
+}
+
+.lightgreen .station::before {
+    border-color: lightgreen;
+}
+.lightgreen .curve,
+.lightgreen.line {
+    background: lightgreen;
+}
+
+.lightgrey .station::before {
+    border-color: lightgrey;
+}
+.lightgrey .curve,
+.lightgrey.line {
+    background: lightgrey;
+}
+
+.lightpink .station::before {
+    border-color: lightpink;
+}
+.lightpink .curve,
+.lightpink.line {
+    background: lightpink;
+}
+
+.lightsalmon .station::before {
+    border-color: lightsalmon;
+}
+.lightsalmon .curve,
+.lightsalmon.line {
+    background: lightsalmon;
+}
+
+.lightseagreen .station::before {
+    border-color: lightseagreen;
+}
+.lightseagreen .curve,
+.lightseagreen.line {
+    background: lightseagreen;
+}
+
+.lightskyblue .station::before {
+    border-color: lightskyblue;
+}
+.lightskyblue .curve,
+.lightskyblue.line {
+    background: lightskyblue;
+}
+
+.lightslategray .station::before {
+    border-color: lightslategray;
+}
+.lightslategray .curve,
+.lightslategray.line {
+    background: lightslategray;
+}
+
+.lightslategrey .station::before {
+    border-color: lightslategrey;
+}
+.lightslategrey .curve,
+.lightslategrey.line {
+    background: lightslategrey;
+}
+
+.lightsteelblue .station::before {
+    border-color: lightsteelblue;
+}
+.lightsteelblue .curve,
+.lightsteelblue.line {
+    background: lightsteelblue;
+}
+
+.lightyellow .station::before {
+    border-color: lightyellow;
+}
+.lightyellow .curve,
+.lightyellow.line {
+    background: lightyellow;
+}
+
+.lime .station::before {
+    border-color: lime;
+}
+.lime .curve,
+.lime.line {
+    background: lime;
+}
+
+.limegreen .station::before {
+    border-color: limegreen;
+}
+.limegreen .curve,
+.limegreen.line {
+    background: limegreen;
+}
+
+.linen .station::before {
+    border-color: linen;
+}
+.linen .curve,
+.linen.line {
+    background: linen;
+}
+
+.magenta .station::before {
+    border-color: magenta;
+}
+.magenta .curve,
+.magenta.line {
+    background: magenta;
+}
+
+.maroon .station::before {
+    border-color: maroon;
+}
+.maroon .curve,
+.maroon.line {
+    background: maroon;
+}
+
+.mediumaquamarine .station::before {
+    border-color: mediumaquamarine;
+}
+.mediumaquamarine .curve,
+.mediumaquamarine.line {
+    background: mediumaquamarine;
+}
+
+.mediumblue .station::before {
+    border-color: mediumblue;
+}
+.mediumblue .curve,
+.mediumblue.line {
+    background: mediumblue;
+}
+
+.mediumorchid .station::before {
+    border-color: mediumorchid;
+}
+.mediumorchid .curve,
+.mediumorchid.line {
+    background: mediumorchid;
+}
+
+.mediumpurple .station::before {
+    border-color: mediumpurple;
+}
+.mediumpurple .curve,
+.mediumpurple.line {
+    background: mediumpurple;
+}
+
+.mediumseagreen .station::before {
+    border-color: mediumseagreen;
+}
+.mediumseagreen .curve,
+.mediumseagreen.line {
+    background: mediumseagreen;
+}
+
+.mediumslateblue .station::before {
+    border-color: mediumslateblue;
+}
+.mediumslateblue .curve,
+.mediumslateblue.line {
+    background: mediumslateblue;
+}
+
+.mediumspringgreen .station::before {
+    border-color: mediumspringgreen;
+}
+.mediumspringgreen .curve,
+.mediumspringgreen.line {
+    background: mediumspringgreen;
+}
+
+.mediumturquoise .station::before {
+    border-color: mediumturquoise;
+}
+.mediumturquoise .curve,
+.mediumturquoise.line {
+    background: mediumturquoise;
+}
+
+.mediumvioletred .station::before {
+    border-color: mediumvioletred;
+}
+.mediumvioletred .curve,
+.mediumvioletred.line {
+    background: mediumvioletred;
+}
+
+.midnightblue .station::before {
+    border-color: midnightblue;
+}
+.midnightblue .curve,
+.midnightblue.line {
+    background: midnightblue;
+}
+
+.mintcream .station::before {
+    border-color: mintcream;
+}
+.mintcream .curve,
+.mintcream.line {
+    background: mintcream;
+}
+
+.mistyrose .station::before {
+    border-color: mistyrose;
+}
+.mistyrose .curve,
+.mistyrose.line {
+    background: mistyrose;
+}
+
+.moccasin .station::before {
+    border-color: moccasin;
+}
+.moccasin .curve,
+.moccasin.line {
+    background: moccasin;
+}
+
+.navajowhite .station::before {
+    border-color: navajowhite;
+}
+.navajowhite .curve,
+.navajowhite.line {
+    background: navajowhite;
+}
+
+.navy .station::before {
+    border-color: navy;
+}
+.navy .curve,
+.navy.line {
+    background: navy;
+}
+
+.oldlace .station::before {
+    border-color: oldlace;
+}
+.oldlace .curve,
+.oldlace.line {
+    background: oldlace;
+}
+
+.olive .station::before {
+    border-color: olive;
+}
+.olive .curve,
+.olive.line {
+    background: olive;
+}
+
+.olivedrab .station::before {
+    border-color: olivedrab;
+}
+.olivedrab .curve,
+.olivedrab.line {
+    background: olivedrab;
+}
+
+.orange .station::before {
+    border-color: orange;
+}
+.orange .curve,
+.orange.line {
+    background: orange;
+}
+
+.orangered .station::before {
+    border-color: orangered;
+}
+.orangered .curve,
+.orangered.line {
+    background: orangered;
+}
+
+.orchid .station::before {
+    border-color: orchid;
+}
+.orchid .curve,
+.orchid.line {
+    background: orchid;
+}
+
+.palegoldenrod .station::before {
+    border-color: palegoldenrod;
+}
+.palegoldenrod .curve,
+.palegoldenrod.line {
+    background: palegoldenrod;
+}
+
+.palegreen .station::before {
+    border-color: palegreen;
+}
+.palegreen .curve,
+.palegreen.line {
+    background: palegreen;
+}
+
+.paleturquoise .station::before {
+    border-color: paleturquoise;
+}
+.paleturquoise .curve,
+.paleturquoise.line {
+    background: paleturquoise;
+}
+
+.palevioletred .station::before {
+    border-color: palevioletred;
+}
+.palevioletred .curve,
+.palevioletred.line {
+    background: palevioletred;
+}
+
+.papayawhip .station::before {
+    border-color: papayawhip;
+}
+.papayawhip .curve,
+.papayawhip.line {
+    background: papayawhip;
+}
+
+.peachpuff .station::before {
+    border-color: peachpuff;
+}
+.peachpuff .curve,
+.peachpuff.line {
+    background: peachpuff;
+}
+
+.peru .station::before {
+    border-color: peru;
+}
+.peru .curve,
+.peru.line {
+    background: peru;
+}
+
+.pink .station::before {
+    border-color: pink;
+}
+.pink .curve,
+.pink.line {
+    background: pink;
+}
+
+.powderblue .station::before {
+    border-color: powderblue;
+}
+.powderblue .curve,
+.powderblue.line {
+    background: powderblue;
+}
+
+.purple .station::before {
+    border-color: purple;
+}
+.purple .curve,
+.purple.line {
+    background: purple;
+}
+
+.red .station::before {
+    border-color: red;
+}
+.red .curve,
+.red.line {
+    background: red;
+}
+
+.rosybrown .station::before {
+    border-color: rosybrown;
+}
+.rosybrown .curve,
+.rosybrown.line {
+    background: rosybrown;
+}
+
+.royalblue .station::before {
+    border-color: royalblue;
+}
+.royalblue .curve,
+.royalblue.line {
+    background: royalblue;
+}
+
+.saddlebrown .station::before {
+    border-color: saddlebrown;
+}
+.saddlebrown .curve,
+.saddlebrown.line {
+    background: saddlebrown;
+}
+
+.salmon .station::before {
+    border-color: salmon;
+}
+.salmon .curve,
+.salmon.line {
+    background: salmon;
+}
+
+.sandybrown .station::before {
+    border-color: sandybrown;
+}
+.sandybrown .curve,
+.sandybrown.line {
+    background: sandybrown;
+}
+
+.seagreen .station::before {
+    border-color: seagreen;
+}
+.seagreen .curve,
+.seagreen.line {
+    background: seagreen;
+}
+
+.seashell .station::before {
+    border-color: seashell;
+}
+.seashell .curve,
+.seashell.line {
+    background: seashell;
+}
+
+.sienna .station::before {
+    border-color: sienna;
+}
+.sienna .curve,
+.sienna.line {
+    background: sienna;
+}
+
+.silver .station::before {
+    border-color: silver;
+}
+.silver .curve,
+.silver.line {
+    background: silver;
+}
+
+.skyblue .station::before {
+    border-color: skyblue;
+}
+.skyblue .curve,
+.skyblue.line {
+    background: skyblue;
+}
+
+.slateblue .station::before {
+    border-color: slateblue;
+}
+.slateblue .curve,
+.slateblue.line {
+    background: slateblue;
+}
+
+.slategray .station::before {
+    border-color: slategray;
+}
+.slategray .curve,
+.slategray.line {
+    background: slategray;
+}
+
+.slategrey .station::before {
+    border-color: slategrey;
+}
+.slategrey .curve,
+.slategrey.line {
+    background: slategrey;
+}
+
+.snow .station::before {
+    border-color: snow;
+}
+.snow .curve,
+.snow.line {
+    background: snow;
+}
+
+.springgreen .station::before {
+    border-color: springgreen;
+}
+.springgreen .curve,
+.springgreen.line {
+    background: springgreen;
+}
+
+.steelblue .station::before {
+    border-color: steelblue;
+}
+.steelblue .curve,
+.steelblue.line {
+    background: steelblue;
+}
+
+.tan .station::before {
+    border-color: tan;
+}
+.tan .curve,
+.tan.line {
+    background: tan;
+}
+
+.teal .station::before {
+    border-color: teal;
+}
+.teal .curve,
+.teal.line {
+    background: teal;
+}
+
+.thistle .station::before {
+    border-color: thistle;
+}
+.thistle .curve,
+.thistle.line {
+    background: thistle;
+}
+
+.tomato .station::before {
+    border-color: tomato;
+}
+.tomato .curve,
+.tomato.line {
+    background: tomato;
+}
+
+.turquoise .station::before {
+    border-color: turquoise;
+}
+.turquoise .curve,
+.turquoise.line {
+    background: turquoise;
+}
+
+.violet .station::before {
+    border-color: violet;
+}
+.violet .curve,
+.violet.line {
+    background: violet;
+}
+
+.wheat .station::before {
+    border-color: wheat;
+}
+.wheat .curve,
+.wheat.line {
+    background: wheat;
+}
+
+.white .station::before {
+    border-color: white;
+}
+.white .curve,
+.white.line {
+    background: white;
+}
+
+.whitesmoke .station::before {
+    border-color: whitesmoke;
+}
+.whitesmoke .curve,
+.whitesmoke.line {
+    background: whitesmoke;
+}
+
+.yellow .station::before {
+    border-color: yellow;
+}
+.yellow .curve,
+.yellow.line {
+    background: yellow;
+}
+
+.yellowgreen .station::before {
+    border-color: yellowgreen;
+}
+.yellowgreen .curve,
+.yellowgreen.line {
+    background: yellowgreen;
 }
 
