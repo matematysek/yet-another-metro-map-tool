@@ -96,26 +96,26 @@
     transform: translateX(-100%);
 }
 
-.myred .curve,
-.myred.line {
+.linecred .curve,
+.linecred.line {
     background: #f8000c;
 }
 
-.myred .station::before {
+.linecred .station::before {
     border-color: #f8000c;
 }
 
-.myblue .curve,
-.myblue.line {
+.linedblue .curve,
+.linedblue.line {
     background: #3342ff;
 }
 
-.myblue .station::before {
+.linedblue .station::before {
     border-color: #3342ff;
 }
 
-.mygreen .curve,
-.mygreen.line {
+.lineagreen .curve,
+.lineagreen.line {
     background: #028202;
 }
 
@@ -123,39 +123,39 @@
     border-color: #028202;
 }
 
-.myyellow .curve,
-.yellow.line {
+.linebyellow .curve,
+.linebyellow.line {
     background: #eded05;
 }
 
-.myyellow .station::before {
+.linebyellow .station::before {
     border-color: #eded05;
 }
 
-.myorange .curve,
-.myorange.line {
+.lineforange .curve,
+.lineforange.line {
     background: #ec800d;
 }
 
-.myorange .station::before {
+.lineforange .station::before {
     border-color: #ec800d;
 }
 
-.mypurple .curve,
-.purple.line {
+.lineepurple .curve,
+.lineepurple.line {
     background: #92278f;
 }
 
-.mypurple .station::before {
+.lineepurple .station::before {
     border-color: #92278f;
 }
 
-.mysilver .curve,
-.mysilver.line {
+.linegsilver .curve,
+.linegsilver.line {
     background: #b2b2b2;
 }
 
-.mysilver .station::before {
+.linegsilver .station::before {
     border-color: #b2b2b2;
 }
 
