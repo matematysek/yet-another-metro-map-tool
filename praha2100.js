@@ -89,10 +89,7 @@ const A8 = start (2020, 900)
 const A6 = start(2528, 964)
     .setColor('lineagreen')
     .continue([' ', ' '], 282, 'ne', 'line-end')  
-	    	        
-const A10 = start(2020, 404)
-    .setColor('lineagreen')
-    .continue(['Malostranská', 'Staroměstská', ' '], 193, 's', 'line-end')
+
     
 const A11 = start(1974, 284)
     .setColor('lineagreen')
@@ -173,7 +170,35 @@ const B10 = start(100, 500)
 const B11 = start(308, 500)
     .setColor('linebyellow')
     .continue([' ', 'Luka', 'Lužiny', 'Hůrka', 'Nové Butovice', 'Jinonice', 'Radlická'], 1108, 'e', 'line-end') 
-				
+      
+const D1 = start(100, 900)
+    .setColor('linedblue')
+    .continue(['Dolní Jirčany', 'Jesenice', 'Vestec', 'Depo Písnice', 'Písnice', 'Libuš', 'Nové Dvory', 'Nemocnice Krč', 'Nádraží Krč', 'Olbrachtova', ' '], 1308, 'e', 'line-end')    
+
+const D2 = start(1416, 900)
+    .setColor('linedblue')
+    .continue([' ', 'Náměstí bratří Synků', ' '], 600, 'e', 'line-end')    
+    
+const D3 = start(2074, 784)
+    .setColor('linedblue')
+    .continue([' ', ' '], 141, 'ne', 'line-end')
+    
+const D4 = start(2120, 604)
+    .setColor('linedblue')
+    .continue([' ', ' '], 193, 's', 'line-end')
+    
+const D5 = start(2120, 504)
+    .setColor('linedblue')
+    .continue([' ', ' '], 93, 's', 'line-end')
+        
+const D6 = start(2120, 404)
+    .setColor('linedblue')
+    .continue([' ', ' '], 93, 's', 'line-end')
+	    	        
+const A10 = start(2020, 404)
+    .setColor('lineagreen')
+    .continue([' ', 'Staroměstská', null, ' '], 193, 's', 'line-end')
+    
 const F1 = start(1974, 784)
     .setColor('lineforange')
     .continue(['Náměstí Míru', ' '], 134, 'se', 'line-end')
@@ -205,4 +230,12 @@ const G1 = start(2478, 884)
    
 const G2 = start(1574, 600)
     .setColor('linegsilver')
-    .continue([null, ' '], 42, 'e', 'line-end')      
+    .continue([null, ' '], 42, 'e', 'line-end')     
+	
+const G3 = start(2022, 400)
+    .setColor('linegsilver')
+    .continue(['Malostranská', 'Letná'], 94, 'e', 'line-end')
+ 
+const G4 = start(2126, 400)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 192, 'e', 'line-end')
