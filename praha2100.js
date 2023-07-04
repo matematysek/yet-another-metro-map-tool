@@ -53,6 +53,10 @@ const C13 = start(2424, 300)
 const C14 = start(3032, 300)
     .setColor('linecred')
     .continue([' ', 'Kbely', 'Vinoř'], 300, 'e', 'line-end')
+       
+const D10 = start(700, 100)
+    .setColor('linedblue')
+    .continue([' ', 'Přední Kopanina', 'Horoměřice', 'Nový Suchdol', 'Suchdol', 'Nádraží Podbaba'], 1016, 'e', 'line-end')
 
 const A1 = start(100, 1000)
     .setColor('lineagreen')
@@ -89,7 +93,6 @@ const A8 = start (2020, 900)
 const A6 = start(2528, 964)
     .setColor('lineagreen')
     .continue([' ', ' '], 282, 'ne', 'line-end')  
-
     
 const A11 = start(1974, 284)
     .setColor('lineagreen')
@@ -194,6 +197,22 @@ const D5 = start(2120, 504)
 const D6 = start(2120, 404)
     .setColor('linedblue')
     .continue([' ', ' '], 93, 's', 'line-end')
+    
+const D7 = start(1822, 200)
+    .setColor('linedblue')
+    .continue([' ', 'Bubeneč'], 92, 'e', 'line-end')    
+	
+const D8 = start(2074, 284)
+    .setColor('linedblue')
+    .continue([' ', null], 134, 'se', 'line-end')
+    
+const D9 = start(1974, 184)
+    .setColor('linedblue')
+    .continue([null, ' '], 134, 'se', 'line-end')    
+    
+const D11 = start(1774, 84)
+    .setColor('linedblue')
+    .continue([' ', ' '], 134, 'se', 'line-end')
 	    	        
 const A10 = start(2020, 404)
     .setColor('lineagreen')
