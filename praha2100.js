@@ -48,11 +48,11 @@ const C12 = start(2374, 284)
 
 const C13 = start(2424, 300)
     .setColor('linecred')
-    .continue(['Nádraží Holešovice', 'Kobylisy', 'Ládví', 'Střížkov', 'Prosek', 'Letňany'], 600, 'e', 'line-end')
+    .continue(['Nádraží Holešovice', 'Kobylisy', 'Ládví', 'Střížkov', 'Prosek', 'Letňany'], 508, 'e', 'line-end')
     
-const C14 = start(3032, 300)
+const C14 = start(2940, 300)
     .setColor('linecred')
-    .continue([' ', 'Kbely', 'Vinoř'], 300, 'e', 'line-end')
+    .continue([' ', 'Kbely', 'Vinoř'], 392, 'e', 'line-end')
        
 const D10 = start(700, 100)
     .setColor('linedblue')
@@ -149,7 +149,11 @@ const B4 = start(2532, 500)
 const B5 = start(2740, 500)
     .setColor('linebyellow')
     .continue([' ', 'Kolbenova', 'Hloubětín', 'Rajská Zahrada', 'Černý Most', 'Nádraží Horní Počernice', 'Nové Šestajovice', 'Šestajovice', 'Nádraží Klánovice'], 592, 'e', 'line-end')    
-
+    
+const E3 = start(1724, 500)
+    .setColor('lineepurple')
+    .continue(['Malostranské náměstí', ' '], 192, 'e', 'line-end')    
+    
 const B6 = start(1724, 600)
     .setColor('linebyellow')
     .continue([' ', 'Národní třída', ' '], 292, 'e', 'line-end')    
@@ -218,6 +222,54 @@ const A10 = start(2020, 404)
     .setColor('lineagreen')
     .continue([' ', 'Staroměstská', null, ' '], 193, 's', 'line-end')
     
+const E1 = start(100, 300)
+    .setColor('lineepurple')
+    .continue(['Jeneč','Nová Hostivice', 'Litovice', 'Hostivice', 'Jiviny', ' '], 792, 'e', 'line-end')    
+
+const E2 = start(900, 300)
+    .setColor('lineepurple')
+    .continue([' ','Břevnov'], 614, 'e', 'line-end')
+    
+const E4 = start(1624, 264)
+    .setColor('lineepurple')
+    .continue([' ', ' '], 272, 'se', 'line-end')
+    
+const E5 = start(1974, 484)
+    .setColor('lineepurple')
+    .continue([' ', ' '], 134, 'se', 'line-end')
+	
+const E6 = start(2022, 600)
+    .setColor('lineepurple')
+    .continue([' ', ' '], 94, 'e', 'line-end')
+    
+const E7 = start(2690, 484)
+    .setColor('lineepurple')
+    .continue([' ', 'Nádraží Libeň'], 141, 'ne', 'line-end')
+    
+const E8 = start(2130, 600)
+    .setColor('lineepurple')
+    .continue([' ', 'Lipanská', 'Ohrada'], 392, 'e', 'line-end')
+    
+const E9 = start(2528, 600)
+    .setColor('lineepurple')
+    .continue([' ', ' '], 104, 'e', 'line-end')
+
+const E10 = start(2790, 384)
+    .setColor('lineepurple')
+    .continue([null, ' '], 141, 'ne', 'line-end')
+
+const E11 = start(2890, 284)
+    .setColor('lineepurple')
+    .continue([' ', null], 141, 'ne', 'line-end')  
+    
+const E12 = start(2990, 184)
+    .setColor('lineepurple')
+    .continue([' ', ' '], 141, 'ne', 'line-end')  
+    
+const E13 = start(3040, 200)
+    .setColor('lineepurple')
+    .continue(['Sídliště Letňany', 'Nádraží Čakovice', 'Miškovice', 'Nové Miškovice'], 292, 'e', 'line-end')
+	    
 const F1 = start(1974, 784)
     .setColor('lineforange')
     .continue(['Náměstí Míru', ' '], 134, 'se', 'line-end')
