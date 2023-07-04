@@ -145,7 +145,35 @@ const B3 = start(2230, 500)
 const B4 = start(2532, 500)
     .setColor('linebyellow')
     .continue([' ', 'Českomoravská', 'Vysočanská'], 200, 'e', 'line-end')
+    
+const B5 = start(2740, 500)
+    .setColor('linebyellow')
+    .continue([' ', 'Kolbenova', 'Hloubětín', 'Rajská Zahrada', 'Černý Most', 'Nádraží Horní Počernice', 'Nové Šestajovice', 'Šestajovice', 'Nádraží Klánovice'], 592, 'e', 'line-end')    
+
+const B6 = start(1724, 600)
+    .setColor('linebyellow')
+    .continue([' ', 'Národní třída', ' '], 292, 'e', 'line-end')    
+
+const B7 = start(1624, 600)
+    .setColor('linebyellow')
+    .continue(['Anděl', null], 46, 'e', 'line-end')  
+
+const B8 = start(1524, 600)
+    .setColor('linebyellow')
+    .continue(['Smíchovské nádraží', null], 46, 'e', 'line-end') 
 		
+const B9 = start(1474, 484)
+    .setColor('linebyellow')
+    .continue([' ', ' '], 134, 'se', 'line-end')
+    
+const B10 = start(100, 500)
+    .setColor('linebyellow')
+    .continue(['Nádraží Nučice', 'Rudná', 'Nádraží Rudná', 'Chrášťany', 'Depo Zličín', 'Zličín', 'Stodůlky'], 200, 'e', 'line-end') 
+    
+const B11 = start(308, 500)
+    .setColor('linebyellow')
+    .continue([' ', 'Luka', 'Lužiny', 'Hůrka', 'Nové Butovice', 'Jinonice', 'Radlická'], 1108, 'e', 'line-end') 
+				
 const F1 = start(1974, 784)
     .setColor('lineforange')
     .continue(['Náměstí Míru', ' '], 134, 'se', 'line-end')
@@ -162,8 +190,19 @@ const F4 = start(2428, 1000)
     .setColor('lineforange')
     .continue([' ', 'Strašnická'], 190, 'e', 'line-end')
     
+const F5 = start(1824, 564)
+    .setColor('lineforange')
+    .continue([' ', 'Karlovo náměstí'], 272, 'se', 'line-end')
+    
+const F6 = start(1674, 600)
+    .setColor('lineforange')
+    .continue([null, ' '], 42, 'e', 'line-end')   
+		
+        
 const G1 = start(2478, 884)
     .setColor('linegsilver')
     .continue([' ', ' '], 141, 'ne', 'line-end')  
-
-    
+   
+const G2 = start(1574, 600)
+    .setColor('linegsilver')
+    .continue([null, ' '], 42, 'e', 'line-end')      
