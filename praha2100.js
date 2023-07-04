@@ -137,26 +137,14 @@ const B1 = start(2074, 484)
 const B2 = start(2124, 500)
     .setColor('linebyellow')
     .continue([' ', ' '], 92, 'e', 'line-end')
-    
-const B3 = start(2230, 500)
-    .setColor('linebyellow')
-    .continue([' ', 'Karlín', 'Invalidovna', 'Palmovka'], 292, 'e', 'line-end')
-    
+   
 const B4 = start(2532, 500)
     .setColor('linebyellow')
     .continue([' ', 'Českomoravská', 'Vysočanská'], 200, 'e', 'line-end')
     
 const B5 = start(2740, 500)
     .setColor('linebyellow')
-    .continue([' ', 'Kolbenova', 'Hloubětín', 'Rajská Zahrada', 'Černý Most', 'Nádraží Horní Počernice', 'Nové Šestajovice', 'Šestajovice', 'Nádraží Klánovice'], 592, 'e', 'line-end')    
-    
-const E3 = start(1724, 500)
-    .setColor('lineepurple')
-    .continue(['Malostranské náměstí', ' '], 192, 'e', 'line-end')    
-    
-const B6 = start(1724, 600)
-    .setColor('linebyellow')
-    .continue([' ', 'Národní třída', ' '], 292, 'e', 'line-end')    
+    .continue([' ', 'Kolbenova', 'Hloubětín', 'Rajská Zahrada', 'Černý Most', 'Nádraží Horní Počernice', 'Nové Šestajovice', 'Šestajovice', 'Nádraží Klánovice'], 592, 'e', 'line-end')      
 
 const B7 = start(1624, 600)
     .setColor('linebyellow')
@@ -224,11 +212,11 @@ const E1 = start(100, 300)
 
 const E2 = start(900, 300)
     .setColor('lineepurple')
-    .continue([' ','Břevnov'], 614, 'e', 'line-end')
+    .continue([' ','Břevnov'], 814, 'e', 'line-end')
     
-const E4 = start(1624, 264)
+const E4 = start(1824, 264)
     .setColor('lineepurple')
-    .continue([' ', ' '], 272, 'se', 'line-end')
+    .continue(['Malostranské náměstí', ' '], 272, 'se', 'line-end')
     
 const E5 = start(1974, 484)
     .setColor('lineepurple')
@@ -262,7 +250,7 @@ const E12 = start(2990, 184)
     .setColor('lineepurple')
     .continue([' ', ' '], 141, 'ne', 'line-end')  
     
-const E13 = start(3040, 200)
+const E3 = start(3040, 200)
     .setColor('lineepurple')
     .continue(['Sídliště Letňany', 'Nádraží Čakovice', 'Miškovice', 'Nové Miškovice'], 292, 'e', 'line-end')
 	    
@@ -341,3 +329,71 @@ const G3 = start(2022, 400)
 const G4 = start(2126, 400)
     .setColor('linegsilver')
     .continue([' ', ' '], 192, 'e', 'line-end')
+    
+const G5 = start(1116, 600)
+    .setColor('linegsilver')
+    .continue(['Lihovar', ' '], 400, 'e', 'line-end') 
+		   
+const G6 = start(1266, 544)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 413, 'se', 'line-end')
+    
+const G7 = start(1524, 864)
+    .setColor('linegsilver')
+    .continue(['Michelská', ' '], 272, 'se', 'line-end')
+    		       
+const G8 = start(2378, 984)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 141, 'ne', 'line-end')  
+    
+const G9 = start(1624, 1100)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 696, 'e', 'line-end')  
+
+const G10 = start(2524, 604)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 292, 's', 'line-end')
+ 
+const G11 = start(2524, 504)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 92, 's', 'line-end')   
+
+const G12 = start(2326, 400)
+    .setColor('linegsilver')
+    .continue([' ', 'Maniny'], 96, 'e', 'line-end')  
+	    
+const G13 = start(2480, 384)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 134, 'se', 'line-end')  
+
+const G14 = start(1974, 384)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 141, 'ne', 'line-end')
+	    
+const G15 = start(1674, 484)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 141, 'ne', 'line-end')
+ 
+const G16 = start(1724, 500)
+    .setColor('linegsilver')
+    .continue(['Újezd', ' '], 192, 'e', 'line-end') 
+    
+const G17 = start(616, 600)
+    .setColor('linegsilver')
+    .continue(['Depo Zmrzlík', 'Nový Slivenec', 'Slivenec', ' '], 492, 'e', 'line-end') 
+    
+const G18 = start(1066, 584)
+    .setColor('linegsilver')
+    .continue([' ', ' '], 141, 'ne', 'line-end')
+       
+const G19 = start(616, 700)
+    .setColor('linegsilver')
+    .continue(['Baně', 'Zbraslav', 'Lahovická', 'Velká Chuchle'], 392, 'e', 'line-end') 
+
+const B3 = start(2230, 500)
+    .setColor('linebyellow')
+    .continue([' ', 'Karlín', 'Invalidovna', 'Palmovka'], 292, 'e', 'line-end')
+            
+const B6 = start(1724, 600)
+    .setColor('linebyellow')
+    .continue([' ', 'Národní třída', ' '], 292, 'e', 'line-end')    
